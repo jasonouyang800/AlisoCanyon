@@ -1,0 +1,16 @@
+.onlight-grey{
+background: #e0e0e0;
+}
+.onlight-blue{
+    background:#40c4ff;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+@media (max-width: 992px) { 
+
+
+
+}
