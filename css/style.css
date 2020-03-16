@@ -9,8 +9,111 @@ ul{
     padding:0;
     margin:0;
 }
+.black a {
+    color:#212121
+}
+.black{
+    color:#212121
+}
+.white{
+  color: #fff
+}
+.white a {
+    color:#fff
+}
+ .inherit-tag a{
+    color: inherit;
+
+ }
+ a{
+    text-decoration: underline;
+ }
+.onorange{
+    background: #cc4e10;
+}
+.green{
+    background:#326e1e;
+}
+.onteal{
+    background:#00758c;
+}
+.ondarkgrey{
+    background: #474747;
+}
 @media (max-width: 992px) { 
 
 
 
+}
+#block-webform-client-block-851 {
+    background: #e0e0e0;
+}
+.form-item {
+    margin: 1.5em 0;
+}
+.form-required {
+    color: #c00;
+}
+.resizable-textarea .grippie {
+    background: #eee url(../../misc/grippie.png) no-repeat center 2px;
+    border: 1px solid #ddd;
+    border-top-width: 0;
+    cursor: s-resize;
+    height: 9px;
+    overflow: hidden;
+}
+.form-text, .form-textarea, input[type=text] {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: .5em .65rem;
+}
+input[type="submit"] {
+    background: #227FA6;
+    border: 1px solid #3FADD1;
+}
+.form-text, input[type=submit], input[type=text] {
+    height: 40px;
+}
+input[type=submit] {
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 0 0;
+    padding: .6em 1em;
+    text-transform: uppercase;
+}
+#footer {
+    background: #212121;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    overflow: hidden;
+}
+h3{
+    font-family:"Roboto Condensed",sans-serif;
+    font-weight:700;
+    font-size:22px;
+    line-height:28px ;
+}
+h2{
+    font-family:"Roboto Condensed",sans-serif;
+    font-weight:700;
+    font-size:24px;
+    line-height:31px ;
+}
+
+body{
+    font: 100%/1.5 Lato,sans-serif;
+    font-style: normal;
+}
+.title{
+    font-family:"Roboto Condensed",sans-serif;
+    font-weight:700;
+    font-size:21px;
+    line-height:27px ;
+  
+}
+* {
+    box-sizing: border-box; 
 }
