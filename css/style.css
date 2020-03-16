@@ -102,6 +102,9 @@ h2{
     font-size:24px;
     line-height:31px ;
 }
+h1 a{
+    font-family:"Roboto Condensed",sans-serif;
+}
 
 body{
     font: 100%/1.5 Lato,sans-serif;
@@ -117,3 +120,90 @@ body{
 * {
     box-sizing: border-box; 
 }
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+html,body {
+    height: 100%
+}
+.background-wrap{
+    background-image:url("../images/bigstock.jpg");
+    height:100%;
+    width:1920px;
+    height:540px;
+}
+
+.background-wrap #header-background {
+    background-image: none;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    filter: blur(5px);
+    height: 120px;
+    margin-top: -7.5px;
+    background-image:url("../images/bigstock.jpg");
+}
+.background-wrap #header-background-opacity {
+    background-color: #212121;
+    opacity: .55;
+    position: absolute;
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    height: 105px;
+    z-index: 999;
+}
+#site-name {
+    font-size: 2em;
+    font-weight: 400;
+    height: 105px;
+    color: #fff;
+    font: 100%/1.5 "roboto-condensed-reg",sans-serif;
+    font-size: 2.8em;
+    z-index:1000;
+    top:2%; 
+}
+#site-name a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 720px){
+#site-name {
+    font-size: 2em;
+}
+#header-background {
+    background: #474747;
+  
+    opacity:1;
+}
+}
+@media (max-width: 960px){
+    #site-name {
+        font-size: 2.6em;
+    }
+    
+}
+@media (max-width: 720px){
+    #site-name {
+        font-size: 2em;
+    }
+    .background-wrap #header-background-opacity {
+        background: #474747;
+        opacity: 1;
+        position: absolute;
+        margin: 0 auto;
+        max-width: 1920px;
+        width: 100%;
+        height: 105px;
+        z-index: 999;
+    }
+    
+}
+@media (max-width: 480px){
+    #site-name {
+    font-size: 1.4em;
+    }
+    
+    }
