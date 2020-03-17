@@ -186,3 +186,16 @@ html,body {
     font-size: .75em;
 }
 }
+@media (min-width: 720px){
+    #footer .title, .h2, h2 {
+        font-size: 1.4em;
+        line-height: 1.3em;
+    }
+}
+@media (min-width: 960px){
+    #footer .title, .h2, h2 {
+        font-size: 1.5em;
+    }
+}
+
+
