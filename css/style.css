@@ -237,3 +237,37 @@ html,body {
          url('../fonts/lato-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/lato-v16-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
   }
+  .backtotop p {
+
+    padding: 0 .7em .5em .75em;
+    margin-bottom: 0;
+}
+.backtotop i {
+    
+    font-size: 2em;
+    padding: .1em 0 0 .3em;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    /* text-rendering: auto; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.backtotop {
+    display: none;
+    color: #fff;
+    background: #00758c;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    position: fixed;
+    right: 0;
+    bottom: 3em;
+    cursor: pointer;
+    z-index: 1100;
+    opacity:0;
+}
+#back-to-top.show{
+    opacity:1;
+}
